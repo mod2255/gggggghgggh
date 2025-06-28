@@ -1,13 +1,13 @@
 {
-  "name": "hamoudi-project",
-  "version": "1.0.0",
-  "main": "server.js",
+  "name": "hamoudi-project",         // اسم المشروع
+  "version": "1.0.0",                // رقم الإصدار
+  "main": "server.js",              // الملف الأساسي للتشغيل
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js"       // أمر تشغيل الخادم
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "ws": "^8.13.0",
-    "node-telegram-bot-api": "^0.61.0"
+    "express": "^4.18.2",           // مكتبة الويب Express
+    "ws": "^8.13.0",                // مكتبة WebSocket
+    "node-telegram-bot-api": "^0.61.0"  // مكتبة بوت تيليجرام
   }
 }
